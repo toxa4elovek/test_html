@@ -1,0 +1,77 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Taurus Normal', arial;
+	color: #000000;
+}
+
+div, p, input, button, a {
+	box-sizing: border-box;
+}
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+}
+
+#first {
+	position: relative;
+	height: 100vh;
+}
+
+.box {
+	position: absolute;
+	right: 0px;
+}
+
+.logo {
+	position: absolute;
+	left: 45%;
+	margin-left: -263px;
+}
+
+.shoes {
+	position: absolute;
+	top: 380px;
+	left: 15px;
+}
+
+.label {
+	position: absolute;
+	top: 270px;
+    left: 200px;
+}
+
+.flower {
+	position: absolute;
+	left: 0px;
+}
+
+.category {
+	position: absolute;
+	width: 700px;
+	left: 30%;
+	top: 50%;
+}
+
+.button {
+	border: 1px solid black;
+	border-radius: 15px 15px 15px 15px;
+	padding: 40px 55px 40px 55px;
+	text-decoration: none;
+}
+
+p {
+	margin-top: 35%;
+	text-align: center;
+}
+
+.icon {
+	float: left;
+	margin-right: 80px;
+}
+
+.icon:nth-child(4) {
+	margin-right: 0px;
+}
